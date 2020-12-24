@@ -21,5 +21,5 @@
 from setuptools import setup
 
 setup(requires=["canopy"],
-      provides={"web.apps": ["canopy = canopy:app"]},
+      provides={"web.apps": ["angelogladding = canopy:app"]},
       discover=__file__)
